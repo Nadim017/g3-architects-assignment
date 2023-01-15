@@ -191,19 +191,9 @@ body {
   font-size: 25px;
   color: #ffffff;
 }
-.fact_title {
-  font-weight: 700;
-  font-size: 45px;
-  color: #131313;
-}
-.fact_description {
-  font-weight: 400;
-  font-size: 16px;
-  color: #727272;
-  margin-bottom: 100px;
-  width: 542px;
-  height: 52px;
-}
+
+/* fact title */
+
 .fact_section {
   width: 1400px;
   margin: 0 auto;
@@ -223,6 +213,19 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.fact_title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.fact_description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 100px;
+  width: 542px;
+  height: 52px;
+}
 
 .fact_item_number {
   color: #424242;
@@ -241,6 +244,9 @@ body {
 .email_text {
   text-align: center;
 }
+
+/* sponsor_section */
+
 .sponsor_section {
   margin-top: 180px;
   text-align: center;
@@ -274,6 +280,7 @@ body {
 }
 
 /* most_attractive_feature section */
+
 .featured_section {
   width: 1110px;
   height: 270px;
@@ -386,6 +393,9 @@ body {
   }
   .all_feature_items {
     flex-direction: column;
+  }
+  .all_feature_items_information {
+    padding: 10px;
   }
   .all_feature_title {
     height: auto;
